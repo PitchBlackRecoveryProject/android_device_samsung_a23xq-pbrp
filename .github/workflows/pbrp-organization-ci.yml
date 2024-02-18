@@ -5,7 +5,7 @@ on:
       DEPLOY_TYPE:
         description: 'Deploy Type (TEST/BETA/OFFICIAL)'
         required: true
-        default: 'TEST'
+        default: 'OFFICIAL'
       ChangeLogs:
         description: 'Build ChangeLogs'
         required: true
